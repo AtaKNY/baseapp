@@ -20,14 +20,14 @@ const FeaturesSecurityIcon = require('../../assets/images/landing/features/Secur
 const FeaturesCommunityIcon = require('../../assets/images/landing/features/Community.svg');
 const FeaturesAPIIcon = require('../../assets/images/landing/features/API.svg');
 
-// const TelegramIcon = require('../../assets/images/landing/social/Telegram.svg');
-// const LinkedInIcon = require('../../assets/images/landing/social/LinkedIn.svg');
-// const TwitterIcon = require('../../assets/images/landing/social/Twitter.svg');
-// const YouTubeIcon = require('../../assets/images/landing/social/YouTube.svg');
-// const RedditIcon = require('../../assets/images/landing/social/Reddit.svg');
-// const FacebookIcon = require('../../assets/images/landing/social/Facebook.svg');
-// const MediumIcon = require('../../assets/images/landing/social/Medium.svg');
-// const CoinMarketIcon = require('../../assets/images/landing/social/CoinMarket.svg');
+const TelegramIcon = require('../../assets/images/landing/social/Telegram.svg');
+const LinkedInIcon = require('../../assets/images/landing/social/LinkedIn.svg');
+const TwitterIcon = require('../../assets/images/landing/social/Twitter.svg');
+const YouTubeIcon = require('../../assets/images/landing/social/YouTube.svg');
+const RedditIcon = require('../../assets/images/landing/social/Reddit.svg');
+const FacebookIcon = require('../../assets/images/landing/social/Facebook.svg');
+const MediumIcon = require('../../assets/images/landing/social/Medium.svg');
+const CoinMarketIcon = require('../../assets/images/landing/social/CoinMarket.svg');
 
 
 interface ReduxProps {
@@ -274,19 +274,8 @@ class Landing extends React.Component<Props> {
                             <Link to="/">{this.translate('page.body.landing.footer.info')}</Link>
                         </div>
                     </div>
-                    <div className='pg-landing-screen__footer__wrap__navigation__col'>
-                        <p>
-                            Bohana Ltd <br />
-                            Farského 1121/9, Holešovice, 170 00 Prague 7
-                        </p>
-                        <p>
-                            ID No.: 17918677 <br />
-                            File number:	C 377973 held at the Municipal Court in Prague <br />
-                            The day of the registration:	January 10, 2023
-                        </p>
 
-                    </div>
-                    {/* <div className="pg-landing-screen__footer__wrap__social">
+                    <div className="pg-landing-screen__footer__wrap__social">
                         <div className="pg-landing-screen__footer__wrap__social__row">
                             <img src={TelegramIcon} alt="Telegram" />
                             <img src={LinkedInIcon} alt="LinkedIn" />
@@ -299,9 +288,24 @@ class Landing extends React.Component<Props> {
                             <img src={MediumIcon} alt="MediumIcon" />
                             <img src={CoinMarketIcon} alt="CoinMarket" />
                         </div>
-                    </div> */}
+                    </div>
                 </div>
-                <span className="pg-landing-screen__footer__rights">{this.translate('page.body.landing.footer.rights')}</span>
+             
+                <div className='pg-landing-screen__footer__wrap__navigation__col'>
+                        <p>
+                            Bohana Ltd <br />
+                            Farského 1121/9, Holešovice, 170 00 Prague 7
+                        </p>
+                        <p>
+                            ID No.: 17918677 <br />
+                            File number:	C 377973 held at the Municipal Court in Prague <br />
+                            The day of the registration:	January 10, 2023
+                        </p>
+
+                    </div>
+                    <br/>
+                    <span className="pg-landing-screen__footer__rights">{this.translate('page.body.landing.footer.rights')}</span>
+
             </div>
         );
     }

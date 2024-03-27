@@ -128,7 +128,7 @@ export const ru: LangType = {
     'page.body.landing.tradeOnTheGo.item.title': 'Begin Your Journey with Bohana Today',
     'page.body.landing.tradeOnTheGo.item.text1': 'Sign up today and experience the pinnacle of professionalism,',
     'page.body.landing.tradeOnTheGo.item.text2': 'security, and trustworthiness in virtual currency services.',
-    'page.body.landing.tradeOnTheGo.item.text3': '',
+    'page.body.landing.tradeOnTheGo.item.text3': ' ',
     'page.body.landing.tradeOnTheGo.item.button': 'let’s try',
 
     'page.body.landing.startTrading.title': 'Start trading now',

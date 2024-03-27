@@ -20,14 +20,14 @@ const FeaturesSecurityIcon = require('../../assets/images/landing/features/Secur
 const FeaturesCommunityIcon = require('../../assets/images/landing/features/Community.svg');
 const FeaturesAPIIcon = require('../../assets/images/landing/features/API.svg');
 
-const TelegramIcon = require('../../assets/images/landing/social/Telegram.svg');
-const LinkedInIcon = require('../../assets/images/landing/social/LinkedIn.svg');
-const TwitterIcon = require('../../assets/images/landing/social/Twitter.svg');
-const YouTubeIcon = require('../../assets/images/landing/social/YouTube.svg');
-const RedditIcon = require('../../assets/images/landing/social/Reddit.svg');
-const FacebookIcon = require('../../assets/images/landing/social/Facebook.svg');
-const MediumIcon = require('../../assets/images/landing/social/Medium.svg');
-const CoinMarketIcon = require('../../assets/images/landing/social/CoinMarket.svg');
+// const TelegramIcon = require('../../assets/images/landing/social/Telegram.svg');
+// const LinkedInIcon = require('../../assets/images/landing/social/LinkedIn.svg');
+// const TwitterIcon = require('../../assets/images/landing/social/Twitter.svg');
+// const YouTubeIcon = require('../../assets/images/landing/social/YouTube.svg');
+// const RedditIcon = require('../../assets/images/landing/social/Reddit.svg');
+// const FacebookIcon = require('../../assets/images/landing/social/Facebook.svg');
+// const MediumIcon = require('../../assets/images/landing/social/Medium.svg');
+// const CoinMarketIcon = require('../../assets/images/landing/social/CoinMarket.svg');
 
 
 interface ReduxProps {

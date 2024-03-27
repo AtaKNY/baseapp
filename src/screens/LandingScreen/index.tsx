@@ -294,11 +294,16 @@ class Landing extends React.Component<Props> {
                 <div 
                 style={{textAlign: 'center', color: 'white', fontSize: '12px', marginTop: '20px',display:'flex',flexDirection:"row",gap:5}}>
            
-                        <p>
+                        <p style={{
+                            color: '#9AA0A6',
+                        }}>
                             Bohana Ltd <br />
                             Farského 1121/9, Holešovice, 170 00 Prague 7
                         </p>
-                        <p>
+                        <p style={{
+                            marginLeft: '20px',
+                            color: '#9AA0A6',
+                        }}>
                             ID No.: 17918677 <br />
                             File number:	C 377973 held at the Municipal Court in Prague <br />
                             The day of the registration:	January 10, 2023

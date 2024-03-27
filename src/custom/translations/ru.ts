@@ -97,7 +97,7 @@ export const ru: LangType = {
     'page.body.landing.header.button3': 'register',
 
     'page.body.landing.marketInfo.title.text1': 'Welcome to Bohana Trading Platform.',
-    'page.body.landing.marketInfo.title.text2': '',
+    'page.body.landing.marketInfo.title.text2': ' ',
     'page.body.landing.marketInfo.title.button': 'start trading',
 
     'page.body.landing.platformInfo.item.first.value': '30M+',

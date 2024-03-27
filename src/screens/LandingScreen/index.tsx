@@ -217,7 +217,7 @@ class Landing extends React.Component<Props> {
         return (
             <div className="pg-landing-screen__trade-on-the-go">
                 <div className="pg-landing-screen__trade-on-the-go__wrap">
-                    <div className="pg-landing-screen__trade-on-the-go__wrap__image"/>
+                    <div className="pg-landing-screen__trade-on-the-go__wrap__image" />
                     <div className="pg-landing-screen__trade-on-the-go__wrap__content">
                         <h1>{this.translate('page.body.landing.tradeOnTheGo.item.title')}</h1>
                         <h2>{this.translate('page.body.landing.tradeOnTheGo.item.text1')}</h2>
@@ -274,7 +274,19 @@ class Landing extends React.Component<Props> {
                             <Link to="/">{this.translate('page.body.landing.footer.info')}</Link>
                         </div>
                     </div>
-                    <div className="pg-landing-screen__footer__wrap__social">
+                    <div className='pg-landing-screen__footer__wrap__navigation__col'>
+                        <p>
+                            Bohana Ltd <br />
+                            Farského 1121/9, Holešovice, 170 00 Prague 7
+                        </p>
+                        <p>
+                            ID No.: 17918677 <br />
+                            File number:	C 377973 held at the Municipal Court in Prague <br />
+                            The day of the registration:	January 10, 2023
+                        </p>
+
+                    </div>
+                    {/* <div className="pg-landing-screen__footer__wrap__social">
                         <div className="pg-landing-screen__footer__wrap__social__row">
                             <img src={TelegramIcon} alt="Telegram" />
                             <img src={LinkedInIcon} alt="LinkedIn" />
@@ -287,7 +299,7 @@ class Landing extends React.Component<Props> {
                             <img src={MediumIcon} alt="MediumIcon" />
                             <img src={CoinMarketIcon} alt="CoinMarket" />
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <span className="pg-landing-screen__footer__rights">{this.translate('page.body.landing.footer.rights')}</span>
             </div>
@@ -313,7 +325,7 @@ class Landing extends React.Component<Props> {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     };
 
-    private translate = (key: string) => this.props.intl.formatMessage({id: key});
+    private translate = (key: string) => this.props.intl.formatMessage({ id: key });
 }
 
 const mapStateToProps = (state: RootState): ReduxProps => ({

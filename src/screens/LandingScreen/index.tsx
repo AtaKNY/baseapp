@@ -291,7 +291,9 @@ class Landing extends React.Component<Props> {
                     </div>
                 </div>
              
-                <div className='pg-landing-screen__footer__wrap__navigation__col'>
+                <div 
+                style={{textAlign: 'center', color: 'white', fontSize: '12px', marginTop: '20px',display:'flex',flexDirection:"row",gap:5}}>
+           
                         <p>
                             Bohana Ltd <br />
                             Farského 1121/9, Holešovice, 170 00 Prague 7
@@ -303,8 +305,8 @@ class Landing extends React.Component<Props> {
                         </p>
 
                     </div>
-                    <br/>
                     <span className="pg-landing-screen__footer__rights">{this.translate('page.body.landing.footer.rights')}</span>
+
 
             </div>
         );
